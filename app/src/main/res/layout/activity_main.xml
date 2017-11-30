@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demotxt.myapp.bottomsheet.MainActivity"
+    android:background="@color/backgroundcolor">
+
+    <android.support.v4.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardbackground"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:text="Card Title"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"/>
+                <ImageView
+                    android:id="@+id/shareimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_share_black_24dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="end"/>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/cardbackground"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:text="Card Title"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"/>
+                    <ImageView
+                        android:id="@+id/shareimg2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_share_black_24dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="end"/>
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/cardbackground"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:text="Card Title"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"/>
+                    <Button
+                        android:layout_marginTop="10dp"
+                        android:textColor="#fff"
+                        android:background="#2196f3"
+                        android:layout_gravity="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read this"/>
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+    
+    
+    
+    
+    
+    
+    
+    
+    <include layout="@layout/bottomsheet" />
+</android.support.design.widget.CoordinatorLayout>
